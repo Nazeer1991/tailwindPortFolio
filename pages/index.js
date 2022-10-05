@@ -10,8 +10,8 @@ import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
+import DashboardLight from "../public/DashboardLight.png";
+import Netflix from "../public/Netflix.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
@@ -155,7 +155,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <Image
-                src={web1}
+                src={DashboardLight}
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                src={web2}
+                src={Netflix}
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
